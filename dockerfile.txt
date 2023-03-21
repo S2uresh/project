@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER kranthik851@gmail.com
+MAINTAINER sureshraja
 RUN apt-get update && apt-get install apache2 -y
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
